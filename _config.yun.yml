@@ -1,0 +1,218 @@
+
+banner:
+  enable: true
+  title: 1514的小站
+  border: true
+  cloud:
+    enable: true
+    color: white
+  go_down:
+    enable: true
+    icon: ri:arrow-down-s-line
+
+menu:
+  home:
+    path: /
+    icon: ri:home-4-line
+  list:
+    - type: archives
+      path: /archives/
+      icon: ri:archive-line
+    - type: categories
+      path: /categories/
+      icon: ri:folder-2-line
+    - type: tags
+      path: /tags/
+      icon: ri:price-tag-3-line
+  custom:
+    title: 友链
+    path: /links/
+    icon: ri:settings-line
+
+pages:
+  - name:
+    url: /guestbook
+    icon: ri:women-line
+    color: '#ff72b8'
+
+# 头像
+avatar:
+  enable: true
+  url: /images/1514.jpg
+  rounded: true
+  opacity: 1
+  mickey_mouse: false
+  status:
+    enable: true
+    emoji: 🌌
+    message: 不想上学
+
+# 一键赋值
+codeblock:
+  copy_btn: true
+
+# markdown
+mermaid:
+  enable: true
+  options: https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js
+  startOnload: true
+  global: true
+  
+
+# 计数
+wordcount:
+  enable: true
+  count: true
+  time: true
+
+# 标签云
+wordcloud:
+  enable: true
+  height: 350
+
+
+# 文章卡片透明度
+post_card:
+  opacity: 0.3
+
+footer:
+  live_time:
+    enable: true
+    prefix: 本博客已萌萌哒地运行
+    suffix: (●'◡'●)
+    start_time: '2022-11-02T00:00:00'
+
+say:
+  enable: true
+  api: https://cdn.jsdelivr.net/gh/ElpsyCN/say@gh-pages/sentences.json
+  # https://developer.hitokoto.cn/sentence/
+  hitokoto:
+    enable: true
+    api: https://v1.hitokoto.cn
+
+
+reward:
+  enable: false
+
+social:
+  # - name: RSS
+  #   # set rss in your root config
+  #   # https://github.com/hexojs/hexo-generator-feed
+  #   link: /atom.xml # config.feed.path
+  #   icon: ri:rss-line
+  #   color: orange
+  - name: GitHub
+    link: https://github.com/guLinga
+    icon: ri:github-line
+    color: '#181717'
+  - name: E-Mail
+    link: mailto:xsx1514@163.com
+    icon: ri:mail-line
+    color: '#8E71C1'
+  # - name: 微博
+  #   link: https://weibo.com/jizhideyunyoujun
+  #   icon: ri:weibo-line
+  #   color: '#E6162D'
+  # - name: 豆瓣
+  #   link: https://www.douban.com/people/yunyoujun/
+  #   icon: ri:douban-line
+  #   color: '#007722'
+  - name: 网易云音乐
+    link: https://music.163.com/#/user/home?id=636523765
+    icon: ri:netease-cloud-music-line
+    color: '#C10D0C'
+  # - name: 知乎
+  #   link: https://www.zhihu.com/people/yunyoujun/
+  #   icon: ri:zhihu-line
+  #   color: '#0084FF'
+  - name: 哔哩哔哩动画
+    link: https://space.bilibili.com/179654060
+    icon: ri:bilibili-line
+    color: '#FF8EB3'
+  # - name: 微信公众号
+  #   link: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/about/white-qrcode-and-search.jpg
+  #   icon: ri:wechat-2-line
+  #   color: '#1AAD19'
+  # - name: Twitter
+  #   link: https://twitter.com/YunYouJun
+  #   icon: ri:twitter-line
+  #   color: '#1da1f2'
+  # - name: Telegram
+  #   link: https://t.me/YunYouJun
+  #   icon: ri:telegram-line
+  #   color: '#0088CC'
+  # - name: Telegram Channel
+  #   link: https://t.me/elpsycn
+  #   icon: ri:telegram-fill
+  #   color: '#0088CC'
+  # - name: Travelling
+  #   link: https://travellings.link
+  #   icon: ri:send-plane-2-line
+  #   color: black
+
+notice:
+  enable: true
+  content: welcome.
+
+tags:
+  Vue: '#4fc08d'
+  Hexo: '#0E834D'
+  CSS: '#5298d1'
+  Node.js: '#026E00'
+  Git: '#F14E32'
+  React: '#61dafb'
+  Python: '#3776ab'
+  PHP: '#8892BF'
+  VS Code: '#0066B8'
+  JavaScript: '#F4DF4F'
+  TypeScript: '#317AC6'
+  Laravel: '#F4645F'
+
+# 网站计数器
+busuanzi:
+  enable: false
+  site_uv: true
+  site_uv_icon: ri:user-line
+  site_pv: true
+  site_pv_icon: ri:eye-line
+  page_pv: true
+  page_pv_icon: ri:eye-line
+
+
+# 评论
+comment:
+  enable: true
+  tips:
+  candidates:
+    # - github_discussions
+    # - giscus
+
+# github Discussions服务
+# github_discussions:
+#   enable: true
+#   username: guLinga
+#   repository: guLinga.github.io
+
+giscus:
+  enable: true
+  repo: guLinga/guLinga.github.io
+  repo-id: R_kgDOIW5gZA
+  category: General
+  category-id: DIC_kwDOIW5gZM4CSWdD
+  mapping: pathname
+  reactions-enabled: 1
+  emit-metadata: 0
+  theme: light
+
+# valine:
+#   enable: true
+#   appid: HQPbfjfsTamyPNCc94aLkERT-gzGzoHsz
+#   appkey: zwoqIXJL2HWoUzmfzA0r3oqa
+#   notify: true
+#   verify: true
+#   placeholder: \(@^0^@)/
+#   avater: mm
+#   guest_info: nick,mail,link
+#   pageSize: 10
+#   visitor: false
+#   comment_count: true
