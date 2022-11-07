@@ -47,6 +47,76 @@ avatar:
     emoji: 🌌
     message: 不想上学
 
+# 模式
+mode: time
+
+# 随机多边形背景
+trianglify:
+  enable: false
+  cellSize: 75
+  width: 800
+  height: 600
+  palette: '["YlGnBu", "GnBu", "Purples", "Blues"]'
+  opacity: 0.5
+
+# 烟花
+fireworks:
+  enable: true
+  colors:
+    - '102, 167, 221'
+    - '62, 131, 225'
+    - '33, 78, 194'
+
+# 图片放大预览
+medium_zoom: true
+
+# 光标
+cursor:
+  enable: true
+  default: https://cdn.yunyoujun.cn/css/md-cursors/pointer.cur
+  pointer: https://cdn.yunyoujun.cn/css/md-cursors/link.cur
+  text: https://cdn.yunyoujun.cn/css/md-cursors/text.cur
+
+# 目录
+toc:
+  list_number: true
+  max_depth: 6
+  min_depth: 1
+  placeholder: 很遗憾，这篇文章没有目录哦
+  collapse: false
+
+widget_tree:
+  cdn: true
+  hide: false
+  layout: tree
+  showCount: true
+  toc:
+    enable: true
+    list_number: false
+
+# 打赏
+reward:
+  enable: false
+  icon: ri:hand-coin-line
+  comment: I'm so cute.
+  # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
+  methods:
+    - name: 支付宝
+      path: https://cdn.yunyoujun.cn/img/donate/alipay-qrcode.jpg
+      color: '#00A3EE'
+      icon: ri:alipay-line
+      # link: https://xxxx
+    - name: QQ 支付
+      path: https://cdn.yunyoujun.cn/img/donate/qqpay-qrcode.png
+      color: '#12B7F5'
+      icon: ri:qq-line
+    - name: 微信支付
+      path: https://cdn.yunyoujun.cn/img/donate/wechatpay-qrcode.jpg
+      color: '#2DC100'
+      icon: ri:wechat-pay-line
+
+
+
 # 一键赋值
 codeblock:
   copy_btn: true
@@ -76,11 +146,18 @@ post_card:
   opacity: 0.3
 
 footer:
+  since: 2020
+  icon:
+    name: ri:cloud-line
+    animated: true
+    color: '#0078E7'
   live_time:
     enable: true
     prefix: 本博客已萌萌哒地运行
     suffix: (●'◡'●)
     start_time: '2022-11-02T00:00:00'
+  powered:
+    enable: false
 
 say:
   enable: true
@@ -90,9 +167,6 @@ say:
     enable: true
     api: https://v1.hitokoto.cn
 
-
-reward:
-  enable: false
 
 social:
   # - name: RSS
@@ -152,7 +226,7 @@ social:
 
 notice:
   enable: true
-  content: welcome.
+  content: 欢迎来到我的小站.
 
 tags:
   Vue: '#4fc08d'
@@ -216,3 +290,9 @@ giscus:
 #   pageSize: 10
 #   visitor: false
 #   comment_count: true
+
+# 默哀
+mourn:
+  enable: true
+  days:
+    - 4-4
