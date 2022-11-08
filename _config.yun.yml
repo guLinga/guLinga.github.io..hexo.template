@@ -1,3 +1,9 @@
+head:
+  js:
+    async:
+      # 这里是你从 iconfont 处获得的图标链接。
+      iconfont: //at.alicdn.com/t/c/font_3758607_b54o3gjifi6.js
+
 
 banner:
   enable: true
@@ -161,8 +167,7 @@ footer:
 
 say:
   enable: true
-  api: https://cdn.jsdelivr.net/gh/ElpsyCN/say@gh-pages/sentences.json
-  # https://developer.hitokoto.cn/sentence/
+  api: /data/sentences.json
   hitokoto:
     enable: true
     api: https://v1.hitokoto.cn
@@ -179,50 +184,25 @@ social:
     link: https://github.com/guLinga
     icon: ri:github-line
     color: '#181717'
+  - name: 掘金
+    link: https://juejin.cn/user/3316588148427885/posts
+    icon: icon-juejin
+  - name: CSDN
+    link: https://blog.csdn.net/qq_51965698
+    icon: icon-csdn
+    color: '#fc5531'
+  - name: BFE.dev
+    link: https://bigfrontend.dev/user/ptACGZQ
+    icon: icon-dev
+    color: '#ff1a00'
   - name: E-Mail
     link: mailto:xsx1514@163.com
     icon: ri:mail-line
     color: '#8E71C1'
-  # - name: 微博
-  #   link: https://weibo.com/jizhideyunyoujun
-  #   icon: ri:weibo-line
-  #   color: '#E6162D'
-  # - name: 豆瓣
-  #   link: https://www.douban.com/people/yunyoujun/
-  #   icon: ri:douban-line
-  #   color: '#007722'
-  - name: 网易云音乐
-    link: https://music.163.com/#/user/home?id=636523765
-    icon: ri:netease-cloud-music-line
-    color: '#C10D0C'
-  # - name: 知乎
-  #   link: https://www.zhihu.com/people/yunyoujun/
-  #   icon: ri:zhihu-line
-  #   color: '#0084FF'
   - name: 哔哩哔哩动画
     link: https://space.bilibili.com/179654060
     icon: ri:bilibili-line
     color: '#FF8EB3'
-  # - name: 微信公众号
-  #   link: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/about/white-qrcode-and-search.jpg
-  #   icon: ri:wechat-2-line
-  #   color: '#1AAD19'
-  # - name: Twitter
-  #   link: https://twitter.com/YunYouJun
-  #   icon: ri:twitter-line
-  #   color: '#1da1f2'
-  # - name: Telegram
-  #   link: https://t.me/YunYouJun
-  #   icon: ri:telegram-line
-  #   color: '#0088CC'
-  # - name: Telegram Channel
-  #   link: https://t.me/elpsycn
-  #   icon: ri:telegram-fill
-  #   color: '#0088CC'
-  # - name: Travelling
-  #   link: https://travellings.link
-  #   icon: ri:send-plane-2-line
-  #   color: black
 
 notice:
   enable: true
