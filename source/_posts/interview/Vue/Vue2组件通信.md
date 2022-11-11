@@ -1,6 +1,6 @@
 ---
 title: Vue2组件通信
-date: 2022-11-10
+date: 2022-11-11
 categories: 
 - 面试准备
 - Vue2
