@@ -3,7 +3,7 @@ title: Vue3组件通信
 date: 2022-11-12
 categories: 
 - 面试准备
-- Vue3
+- Vue
 tag: Vue3
 ---
 
