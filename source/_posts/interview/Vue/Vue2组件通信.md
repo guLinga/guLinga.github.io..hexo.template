@@ -4,7 +4,9 @@ date: 2022-11-11
 categories: 
 - 面试准备
 - Vue
-tag: Vue2
+tag: 
+- Vue2
+- 组件通信
 ---
 
 ## Vue2组件通信
