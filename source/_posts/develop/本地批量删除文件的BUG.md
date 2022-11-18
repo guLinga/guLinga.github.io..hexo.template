@@ -1,5 +1,5 @@
 ---
-title: 云文档-本地批量删除文件的BUG和路径修改BUG
+title: 云文档开发笔记-本地批量删除文件的BUG和路径修改BUG
 date: 2022-11-12
 categories: 
 - 开发
