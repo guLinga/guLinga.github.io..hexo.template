@@ -2,7 +2,7 @@ head:
   js:
     async:
       # 这里是你从 iconfont 处获得的图标链接。
-      iconfont: //at.alicdn.com/t/c/font_3758607_b54o3gjifi6.js
+      iconfont: //at.alicdn.com/t/c/font_3758607_bi2hu6m0h9h.js
 
 
 banner:
@@ -187,6 +187,9 @@ social:
   - name: 掘金
     link: https://juejin.cn/user/3316588148427885/posts
     icon: icon-juejin
+  - name: 力扣
+    link: https://leetcode.cn/u/1514/
+    icon: icon-leetcode
   - name: CSDN
     link: https://blog.csdn.net/qq_51965698
     icon: icon-csdn
