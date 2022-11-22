@@ -128,11 +128,11 @@ codeblock:
   copy_btn: true
 
 # markdown
-mermaid:
-  enable: true
-  options: https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js
-  startOnload: true
-  global: true
+# mermaid:
+#   enable: true
+#   options: https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js
+#   startOnload: true
+#   global: true
   
 
 # 计数
