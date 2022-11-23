@@ -2,7 +2,7 @@ head:
   js:
     async:
       # 这里是你从 iconfont 处获得的图标链接。
-      iconfont: //at.alicdn.com/t/c/font_3758607_bi2hu6m0h9h.js
+      iconfont: //at.alicdn.com/t/c/font_3758607_rn8nt9flgr.js
 
 
 banner:
@@ -36,10 +36,13 @@ menu:
     icon: ri:settings-line
 
 pages:
-  - name:
+  - name: 留言板
     url: /guestbook
     icon: ri:women-line
     color: '#ff72b8'
+  - name: 相册
+    url: albums
+    icon: icon-xiangce
 
 # 头像
 avatar:
@@ -279,3 +282,12 @@ mourn:
   enable: true
   days:
     - 4-4
+
+tag_common:
+  cdn: https://fastly.jsdelivr.net/npm/ # enable CDN, default is https://fastly.jsdelivr.net/npm/ 
+  # which layout to use
+  # more info see https://hexo.io/api/injector.html#to-lt-string-gt
+  layout:
+    - post
+    - page
+    # - home

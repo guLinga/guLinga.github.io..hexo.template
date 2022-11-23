@@ -3,6 +3,6 @@ type: albums
 albums:
   - caption: 夕阳西下
     url: /albums/sunset.html
-    cover: https://interactive-examples.mdn.mozilla.net/media/examples/elephant-660-480.jpg
+    cover: https://avatars.githubusercontent.com/u/80607386?v=4
     desc: 我想起那天夕阳下的奔跑
 ---
