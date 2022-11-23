@@ -88,7 +88,7 @@ cursor:
 
 # 目录
 toc:
-  list_number: true
+  list_number: false
   max_depth: 6
   min_depth: 1
   placeholder: 很遗憾，这篇文章没有目录哦
