@@ -292,6 +292,9 @@ tag_common:
     - page
     # - home
 
+engine_search:
+  enable: false
+
 # 站内搜索
 local_search:
   enable: true
