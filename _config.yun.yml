@@ -230,7 +230,7 @@ tags:
 
 # 网站计数器
 busuanzi:
-  enable: false
+  enable: true
   site_uv: true
   site_uv_icon: ri:user-line
   site_pv: true
@@ -291,3 +291,7 @@ tag_common:
     - post
     - page
     # - home
+
+# 站内搜索
+local_search:
+  enable: true

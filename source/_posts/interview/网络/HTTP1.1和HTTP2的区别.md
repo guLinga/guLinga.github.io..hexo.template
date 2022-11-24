@@ -1,7 +1,7 @@
 ---
-title:HTTP1.1和HTTP2的区别
+title: HTTP1.1和HTTP2的区别
 date: 2022-11-24
-categories: 
+categories:
 - 面试准备
 - 网络
 tag:
