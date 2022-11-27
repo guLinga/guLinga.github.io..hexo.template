@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 1514
+title: ''
 subtitle: ''
-description: ''
-keywords:
-author: 1514
+description: '我喜欢在夜晚聆听星星的笑声，它们就像五亿个小铃铛。'
+keywords: ''
+author: 五亿个小铃铛
 language: zh-CN
 timezone: ''
 
@@ -121,33 +121,12 @@ deploy:
 pjax:
   enable: true
 
-# 播放器
 aplayer:
-  global: false
+  cdn: https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js
+  style_cdn: https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css
   meting: true
-  option: https://github.com/metowolf/MetingJS/tree/v1.2
-  widget:
-    enable: false
-    autoplay: false
-    # theme: "#2980b9"
-    loop: all
-    order: list
-    preload: auto
-    volume: 0.7
-    mutex: true
-    lrcType: 0
-    listFolded: false
-    listMaxHeight: 340px
-    audio:
-      - name: 星宿计时
-        artist: 杉田朗/洛天依
-        url: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/audio/star-timer.mp3
-        cover: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0.jpg
-    meting:
-      enable: true
-      id: 308168565
-      server: netease
-      type: playlist
+  meting_cdn: https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js
+
 
 marked:
   prependRoot: true
