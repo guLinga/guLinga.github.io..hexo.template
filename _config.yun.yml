@@ -2,7 +2,31 @@ head:
   js:
     async:
       # 这里是你从 iconfont 处获得的图标链接。
-      iconfont: //at.alicdn.com/t/c/font_3758607_rn8nt9flgr.js
+      iconfont: //at.alicdn.com/t/c/font_3758607_6sjs0ax6htf.js
+
+# 主题色
+colors:
+  primary: '#d79e58'
+  # bg: "#d79e58"
+  selection_bg: '#a25430' # 选取文字时的背景色
+  # 标签云中标签的起始色和结束色
+  # tag_start_color: '#d79e58'
+  # tag_end_color: '#d79e58'
+
+# 背景
+bg_image:
+  enable: true
+  url: /images/background.png
+  dark: /images/bgdark.jpg
+  # blur: 30px # 设置背景模糊程度
+  opacity: 0.8
+
+sidebar:
+  bg_image: /images/sidar.png
+  bg_position: bottom 3rem center
+  tagcloud:
+    enable: true
+    amount: 20
 
 
 banner:
@@ -49,11 +73,11 @@ avatar:
   enable: true
   url: /images/my.png
   rounded: true
-  opacity: 1
+  opacity: 0
   mickey_mouse: false
   status:
     enable: true
-    emoji: 🌌
+    emoji: 💛
     message: 不想上学
 
 # 模式
@@ -192,7 +216,7 @@ social:
     icon: icon-juejin
   - name: 力扣
     link: https://leetcode.cn/u/1514/
-    icon: icon-leetcode
+    icon: icon-leetcode1
   - name: CSDN
     link: https://blog.csdn.net/qq_51965698
     icon: icon-csdn
