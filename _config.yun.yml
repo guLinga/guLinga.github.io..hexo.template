@@ -47,7 +47,7 @@ pages:
 # 头像
 avatar:
   enable: true
-  url: /images/1514.jpg
+  url: /images/my.png
   rounded: true
   opacity: 1
   mickey_mouse: false
