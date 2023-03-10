@@ -1,10 +1,10 @@
 ---
-title: TypaScript学习总结
+title: TypeScript学习总结
 date: 2022-07-03
-categories: typascript
+categories: typescript
 ---
 
-## TypaScript
+## TypeScript
 
 ### 常用类型
 #### 原始类型

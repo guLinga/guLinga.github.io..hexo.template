@@ -1,3 +1,9 @@
+---
+title: 重拾ts类型体操
+date: 2023-03-10
+categories: typescript
+---
+
 ## 重拾ts类型体操
 
 ### 匹配模式做提取
