@@ -1,4 +1,14 @@
+---
+title: React数据管理
+date: 2023-03-06
+categories:
+- 框架
+- react
+---
+
 ## React数据管理
+
+[代码仓库](https://github.com/guLinga/React-data-administration)
 
 ### React批量更新
 React中的批量更新就是将多次更新合并处理，最终只渲染一次，来获得更好的性能。
