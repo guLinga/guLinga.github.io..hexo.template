@@ -1,3 +1,9 @@
+---
+title: 重拾ts类型体操
+date: 2020-03-10
+categories: typescript
+---
+
 ## 什么是TypeScript？
 ts就是一个js的超集，ts不能直接在浏览器上运行，需要转译成js。他给js的变量提供了类型，让代码在编写的时候就能检测错误。让代码更加的健壮。
 
