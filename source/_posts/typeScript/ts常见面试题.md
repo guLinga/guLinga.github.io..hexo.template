@@ -1,5 +1,5 @@
 ---
-title: 重拾ts类型体操
+title: ts常见面试题
 date: 2020-03-10
 categories: typescript
 ---
