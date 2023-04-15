@@ -6,6 +6,8 @@ categories: webpack
 
 ## webpack loader
 
+[代码仓库](https://github.com/guLinga/webpack-practice)
+
 ### 定义
 简单来说loader就是把webpack不能直接处理的资源变成可以直接处理。
 loader本质上是一个js模块，导出的是一个函数。
