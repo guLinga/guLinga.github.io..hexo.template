@@ -217,6 +217,9 @@ social:
   - name: 力扣
     link: https://leetcode.cn/u/1514/
     icon: icon-leetcode1
+  - name: 力扣
+    link: https://leetcode.cn/u/guling-9/
+    icon: icon-leetcode1
   - name: CSDN
     link: https://blog.csdn.net/qq_51965698
     icon: icon-csdn
