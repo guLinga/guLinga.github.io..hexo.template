@@ -236,10 +236,10 @@ social:
     link: https://space.bilibili.com/179654060
     icon: ri:bilibili-line
     color: '#FF8EB3'
-  - name: 个人主页
-    link: https://worried-composer-bcb.notion.site/701778696c5249b984b764dcda49884d
-    icon: icon-notion
-    color: '#db2828'
+  # - name: 个人主页
+  #   link: https://worried-composer-bcb.notion.site/701778696c5249b984b764dcda49884d
+  #   icon: icon-notion
+  #   color: '#db2828'
 
 notice:
   enable: true
