@@ -2,7 +2,7 @@ head:
   js:
     async:
       # 这里是你从 iconfont 处获得的图标链接。
-      iconfont: //at.alicdn.com/t/c/font_3758607_7joupkqfvun.js
+      iconfont: //at.alicdn.com/t/c/font_3758607_7f1xi7kpnr9.js
 
 # 主题色
 colors:
@@ -67,6 +67,10 @@ pages:
   - name: 相册
     url: albums
     icon: icon-xiangce
+  - name: 音乐
+    url: music
+    icon: icon-yinle
+    color: '#f67171'
 
 # 头像
 avatar:
@@ -335,7 +339,7 @@ local_search:
 aplayer:
   global: true
   meting: true
-  option: https://github.com/metowolf/MetingJS/tree/v1.2
+  # option: https://github.com/metowolf/MetingJS/tree/v1.2
   widget:
     enable: true
     autoplay: true
@@ -354,7 +358,7 @@ aplayer:
         url: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/audio/star-timer.mp3
         cover: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0.jpg
     meting:
-      enable: true
+      enable: false
       id: 308168565
       server: netease
       type: playlist

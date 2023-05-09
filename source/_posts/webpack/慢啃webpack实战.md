@@ -1,3 +1,10 @@
+---
+title: 慢啃Webpack
+date: 2023-05-04
+categories: webpack
+password: webpack test end
+---
+
 ## 慢啃Webpack
 
 &ensp;&ensp;&ensp;&ensp;很多人在学习webpack的时候都会将Webpack与工程化联系起来，认为webpack就是前端工程化，我当时也是这样认为的，想要学习好Webpack就需要放下偏见，首先要知道webpack的定义。webpack是前端的构建工具，是一个静态模块打包工具。他就是一个打包工具仅此而已。那么webpack是将什么打包成什么呢？webpack官网给出了一张图片。
@@ -485,6 +492,8 @@ module.exports = {
 ```
 
 #### Plugins
+
+
 
 #### Resolve
 
